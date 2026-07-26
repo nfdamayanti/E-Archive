@@ -1,0 +1,312 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'DM Serif Display';
+  }
+
+.dtpegawai{
+    position: absolute;
+    background-color: rgba(176,190,227,255);
+    justify-content: center;
+    margin-top: 0px;
+    margin-left: 200px;
+    padding: 50px;
+    width: 834px;
+    height: 600px;
+    text-align: center;
+    overflow-wrap: break-word;
+    font-family: 'DM Serif Display';
+    font-size: 15px;
+    color: white;
+}
+
+.dtpegawai .kotak-nip{
+    border-radius: 5px;
+    background: rgba(142, 162, 215, 0.7);
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 14px 0.4px 8px 0;
+    width: 144px;
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 17.5px;
+    color: white;
+}
+
+.dtpegawai .titik-dua-1{
+    position: absolute;
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 30px;
+    color: white;
+    margin-left: -200px;
+    margin-top: 20px;
+}
+
+.dtpegawai .nip-pegawai{
+    position: absolute; 
+    border-radius: 5px; 
+    border: none; 
+    margin-left: -150px; 
+    margin-top: 20px; 
+    height: 41px; 
+    width: 534px; 
+    background-color: rgba(142, 162, 215, 0.7); 
+    color: white; 
+    font-family: 'DM Serif Display'; 
+    font-size: 17.5px; 
+    font-weight: 400;
+}
+
+.dtpegawai .kotak-nama{
+    border-radius: 5px;
+    background: rgba(142, 162, 215, 0.7);
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 14px 0.4px 8px 0;
+    width: 144px;
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 17.5px;
+    color: white;
+}
+
+.dtpegawai .titik-dua-2{
+    position: absolute;
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 30px;
+    color: white;
+    margin-left: -200px;
+    margin-top: 100px;
+}
+
+.dtpegawai .nama-pegawai{
+    position: absolute; 
+    border-radius: 5px; 
+    border: none; 
+    margin-left: -150px; 
+    margin-top: 100px; 
+    height: 41px; 
+    width: 534px; 
+    background-color: rgba(142, 162, 215, 0.7); 
+    color: white; 
+    font-family: 'DM Serif Display'; 
+    font-size: 17.5px; 
+    font-weight: 400;
+}
+
+.dtpegawai .kotak-unit-kerja{
+    border-radius: 5px;
+    background: rgba(142, 162, 215, 0.7);
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 14px 0.4px 8px 0;
+    width: 144px;
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 17.5px;
+    color: white;
+}
+
+.dtpegawai .titik-dua-3{
+    position: absolute;
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 30px;
+    color: white;
+    margin-left: -200px;
+    margin-top: 180px;
+}
+
+.dtpegawai .unit-kerja-pegawai{
+    position: absolute; 
+    border-radius: 5px; 
+    border: none; 
+    margin-left: -150px; 
+    margin-top: 180px; 
+    height: 41px; 
+    width: 534px; 
+    background-color: rgba(142, 162, 215, 0.7); 
+    color: white; 
+    font-family: 'DM Serif Display'; 
+    font-size: 14px; 
+    font-weight: 400;
+}
+
+.dtpegawai .kotak-status{
+    border-radius: 5px;
+    background: rgba(142, 162, 215, 0.7);
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 260px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 14px 0.4px 8px 0;
+    width: 144px;
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 17.5px;
+    color: white;
+}
+
+.dtpegawai .titik-dua-4{
+    position: absolute;
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 30px;
+    color: white;
+    margin-left: -200px;
+    margin-top: 260px;
+}
+
+.dtpegawai .status-pegawai{
+    position: absolute; 
+    border-radius: 5px; 
+    border: none; 
+    margin-left: -150px; 
+    margin-top: 260px; 
+    height: 41px; 
+    width: 534px; 
+    background-color: rgba(142, 162, 215, 0.7); 
+    color: white; 
+    font-family: 'DM Serif Display'; 
+    font-size: 17.5px; 
+    font-weight: 400;
+}
+
+.dtpegawai .kotak-jabatan{
+    border-radius: 5px;
+    background: rgba(142, 162, 215, 0.7);
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 340px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 14px 0.4px 8px 0;
+    width: 144px;
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 17.5px;
+    color: white;
+}
+
+.dtpegawai .titik-dua-5{
+    position: absolute;
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 30px;
+    color: white;
+    margin-left: -200px;
+    margin-top: 340px;
+}
+
+.dtpegawai .jabatan{
+    position: absolute; 
+    border-radius: 5px; 
+    border: none; 
+    margin-left: -150px; 
+    margin-top: 340px; 
+    height: 41px; 
+    width: 534px; 
+    background-color: rgba(142, 162, 215, 0.7); 
+    color: white; 
+    font-family: 'DM Serif Display'; 
+    font-size: 17.5px; 
+    font-weight: 400;
+}
+
+.dtpegawai .kotak-skpd{
+    border-radius: 5px;
+    background: rgba(142, 162, 215, 0.7);
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 420px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 14px 0.4px 8px 0;
+    width: 144px;
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 17.5px;
+    color: white;
+}
+
+.dtpegawai .titik-dua-6{
+    position: absolute;
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 30px;
+    color: white;
+    margin-left: -200px;
+    margin-top: 420px;
+}
+
+.dtpegawai .skpd-pegawai{
+    position: absolute; 
+    border-radius: 5px; 
+    border: none; 
+    margin-left: -150px; 
+    margin-top: 420px; 
+    height: 41px; 
+    width: 534px; 
+    background-color: rgba(142, 162, 215, 0.7); 
+    color: white; 
+    font-family: 'DM Serif Display'; 
+    font-size: 17.5px; 
+    font-weight: 400;
+}
+
+.dtpegawai .btn-simpan{
+    position: absolute;
+    margin-left: 275px;
+    margin-top: 500px;
+    background: rgba(142, 162, 215, 0.7);
+    border: 1px solid rgba(142, 162, 215, 0.7);
+    width: fit-content;
+    padding: 10px;
+    color: white;
+    font-family: 'Inria-Sans';
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    transition: all .2s;
+    border-radius: 10px;
+}
+
+.dtpegawai .btn-batal{
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 500px;
+    background: rgba(142, 162, 215, 0.7);
+    border: 1px solid rgba(142, 162, 215, 0.7);
+    width: fit-content;
+    padding: 10px;
+    color: white;
+    font-family: 'Inria-Sans';
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    transition: all .2s;
+    border-radius: 10px;
+}

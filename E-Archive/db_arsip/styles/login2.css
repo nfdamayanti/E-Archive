@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(142, 162, 215, 0.7);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Inria Sans';
+  }
+  
+  .input {
+    position: fixed;
+    top: 50%;
+    left: 550px;
+    transform: translate(-30%, -50%);
+    background: rgba(152,171,218,255);
+    padding: 50px;
+    width: 700px;
+    height: 400px;
+    box-shadow: rgba(152,171,218,255);
+    border-radius: 15px;
+  }
+  
+  .user-2{
+    position: fixed;
+    padding: 50px;
+    width: 124px;
+    height: 124px;
+    transform: translate(100%, -35%);
+  }
+  .box-input {
+    position: relative;
+    justify-content: space-evenly;
+    margin: 50px;
+    border-bottom: 2px solid white;
+    padding: 10px 0;
+    transform: translate(0%, 90%);
+  }
+  
+  .box-input i {
+    font-size: 23px;
+    color: white;
+    padding: 5px 0;
+  }
+  
+  .box-input input {
+    width: 50%;
+    padding: 5px 0;
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 18px;
+  }
+  
+  .box-input input::placeholder {
+    color: white;
+  }
+  
+  .btn-input .box-input input:hover {
+    background: rgba(113, 117, 157, 0.6000000238);
+  }
+  
+  .btn-input {
+    margin-left: 50px;
+    margin-bottom: 20px;
+    background: none;
+    border: 1px solid white;
+    width: 86.5%;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 3px;
+    cursor: pointer;
+    transition: all .2s;
+    border-radius: 10px;
+    transform: translate(0%, 90%);
+  }
+  
+  .btn-input:hover {
+    background: rgba(113, 117, 157, 0.6000000238);
+  }
+  
+  .bottom {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: -20px;
+  }
+  
+  .bottom p {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    transform: translate(6%, 150%);
+  }
+  
+  .bottom a {
+    color: lightgreen;
+    font-size: 15px;
+    text-decoration: none;
+  }
+  
+  .bottom a:hover {
+    text-decoration: underline;
+  }

@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(142, 162, 215, 0.7);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Inria Sans';
+}
+
+.pegawai-sidebar{
+  width: 10%;
+  height: 100%;
+  padding: 30px;
+  position: fixed;
+  box-sizing: border-box;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.pegawai-sidebar .active{
+  margin-left: 0;
+}
+
+.tombol-lingkaran{
+  background-color: rgba(152, 171, 218, 255);
+  border-radius: 50%;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+}
+
+.tombol-lingkaran-klik{
+  background-color: rgba(98, 128, 209, 0.7);
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+}
+
+.pegawai-sidebar ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 5px;
+  margin-left: -50px;
+}
+
+.pegawai-sidebar ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: "DM Serif Display";
+}
+
+.pegawai .kotak-pegawai{
+  border-radius: 15px;
+  background-color: rgba(98, 128, 209, 0.7);
+  position: fixed;
+  margin-left: 150px;
+  height: 100%;
+  padding: 70px 50.2px 0 60.2px;
+  width: 85%;
+  height: 100%;
+}
+
+.tulisan{
+  margin-left: -60px;
+  margin-top: -50px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.tulisan ul li{
+  list-style: none;
+  display: inline-block;
+}
+
+.tulisan ul li a {
+  text-decoration: none;
+  color: black;
+  font-family: "DM Serif Display";
+  font-size: 20px;
+}
+
+.menu-lain{
+  width: 80%;
+  margin-top: -20px;
+  height: 100%;
+  padding: 10px;
+  position: fixed;
+  box-sizing: border-box;
+}
+
+.menu-lain ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 50px;
+  margin-left: -50px;
+}
+
+.menu-lain ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: "DM Serif Display";
+}
+
+.tombol-lingkaran-2{
+  background-color: rgba(152, 171, 218, 255);
+  border-radius: 50%;
+  justify-content: center;
+  width: 85px;
+  height: 85px;
+}

@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(142, 162, 215, 0.7);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'DM Serif Display';
+}
+
+.beranda-sidebar{
+  width: 10%;
+  height: 100%;
+  padding: 30px;
+  position: fixed;
+  box-sizing: border-box;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.beranda-sidebar .active{
+  margin-left: 0;
+}
+
+.tombol-lingkaran{
+  background-color: rgba(152, 171, 218, 255);
+  border-radius: 50%;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+}
+
+.tombol-lingkaran-klik{
+  background-color: rgba(98, 128, 209, 0.7);
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+}
+
+.beranda-sidebar ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 5px;
+  margin-left: -50px;
+}
+
+.beranda-sidebar ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: "DM Serif Display";
+}
+
+.beranda .kotak-beranda{
+  border-radius: 15px;
+  background-color: rgba(98, 128, 209, 0.7);
+  position: fixed;
+  height: 100%;
+  margin-left: 150px;
+  justify-content: center;
+  padding: 70px 50.2px 0 60.2px;
+  width: 85%;
+  height: 100%;
+}
+
+.beranda .beranda-selamat-datang{
+  text-align: center;
+  font-family: 'DM Serief Display';
+  margin-top: 0px;
+  font-weight: 400;
+  font-size: 47.5px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.beranda .tulisan-beranda{
+  position: absolute;
+  margin-left: -28px;
+  margin-top: -50px;
+  padding: 10px;
+  font-family: 'DM Serif Display';
+  text-decoration: none;
+  font-weight: 200;
+  font-size: 20px;
+  color: black;
+}

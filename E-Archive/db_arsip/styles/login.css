@@ -1,0 +1,113 @@
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}.login {
+  width: 100%;
+  height: 102.4rem;
+  position: relative;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+ .login .rectangle-1 {
+  width: 100%;
+  height: 102.4rem;
+  position: absolute;
+  left: 0rem;
+  top: 0rem;
+  background-color: rgba(142, 162, 215, 0.7);
+  border-radius: 0%;
+ }
+ .login .rectangle-2 {
+  width: 77.4rem;
+  height: 51.1rem;
+  position: absolute;
+  left: 28.1rem;
+  top: 8rem;
+  background-color: rgba(152,171,218,255);
+  border-radius: 0.9rem;
+ }
+ .login .user-11{
+  width: 4rem;
+  height: 4.6rem;
+  position: absolute;
+  transform: translate(45%, 500%);
+ }
+ .login .user-2{
+  width: 15.5rem;
+  height: 15.5rem;
+  transform: translate(200%, 25%);
+ }
+ .login .lockedComputer1{
+  width: 5.1rem;
+  height: 5.1rem;
+  transform: translate(20%, 425%);
+ }
+ .login .rectangle-3{
+  width: 33.6rem;
+  height: 3.3rem;
+  position: relative;
+  padding: 1.8rem 1.4rem 1.9rem 1.4rem;
+  background-color: rgba(171, 185, 218, 255);
+  border-radius: 0.9rem;
+  transform: translate(5%, 150%);
+  font-family: 'DM Serif Display';
+ }
+ .login .rectangle-4{
+  width: 33.6rem;
+  height: 3.3rem;
+  position: relative;
+  padding: 1.8rem 1.4rem 1.9rem 1.4rem;
+  background-color: rgba(171, 185, 218, 255);
+  border-radius: 0.9rem;
+  transform: translate(63%, 181%);
+  font-family: 'DM Serif Display';
+ }
+ .login .masuk{
+  width: 18.3rem;
+  height: 3.3rem;
+  cursor: pointer;
+  position: relative;
+  left: 70.4rem;
+  top: 71.3rem;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.3;
+  color: #000000;
+  font-family: 'Inria Sans';
+  white-space: nowrap;
+ }
+ .login .rectangle-5{
+  width: 12.8rem;
+  height: 3.3rem;
+  cursor: pointer;
+  position: absolute;
+  left: 8.4rem;
+  background-color: rgba(43, 252, 9, 0.69);
+  border-radius: 0.6rem;
+  transform: translate(200%, 700%);
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.3;
+  color: #000000;
+  font-family: 'Inria Sans';
+  white-space: nowrap;
+ }

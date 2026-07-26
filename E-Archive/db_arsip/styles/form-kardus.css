@@ -1,0 +1,270 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'DM Serif Display';
+  }
+
+.form-kardus{
+    position: absolute;
+    background-color: rgba(176,190,227,255);
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 200px;
+    padding: 50px;
+    width: 834px;
+    height: 550px;
+    text-align: center;
+    overflow-wrap: break-word;
+    font-family: 'DM Serif Display';
+    font-size: 15px;
+    color: white;
+}
+
+.form-kardus .kotak-id-kardus{
+    border-radius: 5px;
+    background: rgba(142, 162, 215, 0.7);
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 14px 0.4px 8px 0;
+    width: 160px;
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 17.5px;
+    color: white;
+}
+
+.form-kardus .titik-dua-1{
+    position: absolute;
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 30px;
+    color: white;
+    margin-left: -200px;
+    margin-top: 20px;
+}
+
+.form-kardus .id-kardus{
+    position: absolute; 
+    border-radius: 5px; 
+    border: none; 
+    margin-left: -150px; 
+    margin-top: 20px; 
+    height: 41px; 
+    width: 534px; 
+    background-color: rgba(142, 162, 215, 0.7); 
+    color: white; 
+    font-family: 'DM Serif Display'; 
+    font-size: 17.5px; 
+    font-weight: 400;
+}
+
+.form-kardus .kotak-judul-kardus{
+    border-radius: 5px;
+    background: rgba(142, 162, 215, 0.7);
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 14px 0.4px 8px 0;
+    width: 160px;
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 17.5px;
+    color: white;
+}
+
+.form-kardus .titik-dua-2{
+    position: absolute;
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 30px;
+    color: white;
+    margin-left: -200px;
+    margin-top: 100px;
+}
+
+.form-kardus .judul-kardus{
+    position: absolute; 
+    border-radius: 5px; 
+    border: none; 
+    margin-left: -150px; 
+    margin-top: 100px; 
+    height: 41px; 
+    width: 534px; 
+    background-color: rgba(142, 162, 215, 0.7); 
+    color: white; 
+    font-family: 'DM Serif Display'; 
+    font-size: 17.5px; 
+    font-weight: 400;
+}
+
+.form-kardus .kotak-kd-transaksi{
+    border-radius: 5px;
+    background: rgba(142, 162, 215, 0.7);
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 14px 0.4px 8px 0;
+    width: 160px;
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 17.5px;
+    color: white;
+}
+
+.form-kardus .titik-dua-3{
+    position: absolute;
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 30px;
+    color: white;
+    margin-left: -200px;
+    margin-top: 180px;
+}
+
+.form-kardus .kd-transaksi{
+    position: absolute; 
+    border-radius: 5px; 
+    border: none; 
+    margin-left: -150px; 
+    margin-top: 180px; 
+    height: 41px; 
+    width: 534px; 
+    background-color: rgba(142, 162, 215, 0.7); 
+    color: white; 
+    font-family: 'DM Serif Display'; 
+    font-size: 17.5px; 
+    font-weight: 400;
+}
+
+.form-kardus .kotak-tgl-transaksi{
+    border-radius: 5px;
+    background: rgba(142, 162, 215, 0.7);
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 260px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 14px 0.4px 8px 0;
+    width: 160px;
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 17.5px;
+    color: white;
+}
+
+.form-kardus .titik-dua-4{
+    position: absolute;
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 30px;
+    color: white;
+    margin-left: -200px;
+    margin-top: 260px;
+}
+
+.form-kardus .tgl-transaksi{
+    position: absolute; 
+    border-radius: 5px; 
+    border: none; 
+    margin-left: -150px; 
+    margin-top: 260px; 
+    height: 41px; 
+    width: 534px; 
+    background-color: rgba(142, 162, 215, 0.7); 
+    color: white; 
+    font-family: 'DM Serif Display'; 
+    font-size: 17.5px; 
+    font-weight: 400;
+}
+
+.form-kardus .kotak-sub-total{
+    border-radius: 5px;
+    background: rgba(142, 162, 215, 0.7);
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 340px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 14px 0.4px 8px 0;
+    width: 160px;
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 17.5px;
+    color: white;
+}
+
+.form-kardus .titik-dua-5{
+    position: absolute;
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 30px;
+    color: white;
+    margin-left: -200px;
+    margin-top: 340px;
+}
+
+.form-kardus .sub-total{
+    position: absolute; 
+    border-radius: 5px; 
+    border: none; 
+    margin-left: -150px; 
+    margin-top: 340px; 
+    height: 41px; 
+    width: 534px; 
+    background-color: rgba(142, 162, 215, 0.7); 
+    color: white; 
+    font-family: 'DM Serif Display'; 
+    font-size: 17.5px; 
+    font-weight: 400;
+}
+
+.form-kardus .btn-simpan{
+    position: absolute;
+    margin-left: 275px;
+    margin-top: 420px;
+    background: rgba(142, 162, 215, 0.7);
+    border: 1px solid rgba(142, 162, 215, 0.7);
+    width: fit-content;
+    padding: 10px;
+    color: white;
+    font-family: 'Inria-Sans';
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    transition: all .2s;
+    border-radius: 10px;
+}
+
+.form-kardus .btn-batal{
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 420px;
+    background: rgba(142, 162, 215, 0.7);
+    border: 1px solid rgba(142, 162, 215, 0.7);
+    width: fit-content;
+    padding: 10px;
+    color: white;
+    font-family: 'Inria-Sans';
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    transition: all .2s;
+    border-radius: 10px;
+}
